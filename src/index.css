@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+/* ── Theme CSS Variables ── */
+:root {
+    --bg-base: #f8fafc;
+    --bg-surface: #ffffff;
+    --bg-input: #f1f5f9;
+    --bg-hover: #f1f5f9;
+    --text-primary: #0f172a;
+    --text-secondary: #475569;
+    --text-muted: #94a3b8;
+    --border-color: #e2e8f0;
+    --border-subtle: #f1f5f9;
+    --shadow-color: rgba(0, 0, 0, 0.05);
+}
+
+.dark {
+    --bg-base: #0f172a;
+    --bg-surface: #1e293b;
+    --bg-input: #0f172a;
+    --bg-hover: #1e293b80;
+    --text-primary: #f8fafc;
+    --text-secondary: #cbd5e1;
+    --text-muted: #64748b;
+    --border-color: #334155;
+    --border-subtle: #1e293b;
+    --shadow-color: rgba(0, 0, 0, 0.3);
+}
+
+body {
+    background-color: var(--bg-base);
+    color: var(--text-primary);
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(12px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
