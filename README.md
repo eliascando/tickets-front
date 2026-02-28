@@ -138,6 +138,7 @@ DB_PASSWORD=secret
 DB_NAME=ticketsdb
 JWT_SECRET=tu_secreto_local
 PORT=3000
+ADMIN_DEFAULT_PASSWORD=password
 ```
 > **Nota de DB Local**: Instala nativamente MySQL Server en tu equipo de desarrollo o usa un motor amigable como XAMPP/MAMP. Docker no es utilizado en esta capa.
 
