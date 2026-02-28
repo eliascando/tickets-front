@@ -100,7 +100,7 @@ El sistema obliga un esquema seguro de trabajo:
 
 **1. Clonar el repositorio y entrar al directorio:**
 ```bash
-git clone https://github.com/ticket-sys/tickets-front.git
+git clone https://github.com/eliascando/tickets-front.git
 cd tickets-front
 ```
 
